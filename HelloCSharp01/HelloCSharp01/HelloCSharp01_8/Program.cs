@@ -96,7 +96,7 @@ namespace HelloCSharp01_8
                     a[i ] = "1" + oneCount + "2" + twoCount;
                     Console.WriteLine(a[i]);
                 }
-                else if(oneCount != 0 && twoCount != 0 && threeCount == 0)
+                else if(oneCount != 0 && twoCount != 0 && threeCount != 0)
                 {
                     a[i ] = "1" + oneCount + "2" + twoCount +"3" + threeCount;
                     Console.WriteLine(a[i]);
