@@ -15,6 +15,7 @@ namespace HelloCSharp07
         public Form2()
         {
             InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
             button1.Text = "추가";
             button2.Text = "수정";
             button3.Text = "삭제";
